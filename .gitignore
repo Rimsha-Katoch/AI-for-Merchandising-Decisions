@@ -1,0 +1,13 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore all files first
+*
+
+# Allow only these files
+!app.py
+!data.csv
+!main.ipynb
+
+# Allow gitignore itself
+!.gitignore
